@@ -11,3 +11,12 @@ the second and the last numbers add up to the expected sum.
 The program uses the well known Grover, and the Quantum Counting algorithms.
 
 The `.ipynb` and `.html` files contain a little bit of documentation compared to the source code `.py`.
+
+`qosf_task_1_unoptimized.ipynb` is an unoptimized version of the algorithm.
+It is included, in case this is what's needed.
+This unoptimized version uses much more qubits,
+because practically it stores all the input numbers
+in qubits, adding `numbers * digits` more qubits.
+I said practically, because the input numbers are still hardcoded in the gates,
+there is still some optimization in this algorithm.
+I didn't make an algorithm where the numbers are stored in the initial state of the qubits.
